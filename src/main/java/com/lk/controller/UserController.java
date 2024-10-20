@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/user")
 @Validated
-public class UserController {
+public class UserController {//testchange
     @Autowired
     private UserService userService;
 
